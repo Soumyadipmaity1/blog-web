@@ -19,13 +19,23 @@ function Blog(props) {
     const [blog2, setBlog2] = useState("")
 
     const farhanBlog1 = async () => {
+      try {
         const res = await getBlogById("63565ca0e7f50f49f39084a0")
         setBlog1(res.data.message)
+      }
+      catch(err) {
+        console.error("Error in fb1",err);
+      }
     }
 
     const farhanBlog2 = async () => {
+      try {
         const res = await getBlogById("63565ca0e7f50f49f3908420")
         setBlog2(res.data.message)
+      }
+      catch(err) {
+        console.error("Err in fb2", err)
+      }
     }
 
     useEffect(() => {

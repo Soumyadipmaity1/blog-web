@@ -69,7 +69,7 @@ export const blogsCount = async(id) => {
         return await axios.get(`${url}/blogsCount`)
     }
     catch(error) {
-        console.log("Error in blogs count api");
+        console.log("Error in blogs count api", error);
     }
 }
 
@@ -78,6 +78,6 @@ export const usersCount = async(id) => {
         return await axios.get(`${url}/usersCount`)
     }
     catch(error) {
-        console.log("Error in users count api");
+        console.log("Error in users count api", error);
     }
 }
