@@ -2,7 +2,7 @@ import React, {useState,useContext,useEffect} from 'react'
 import {getBlogById} from '../../apis/Blogs'
 import {LoginContext} from '../../contextProvider/context'
 import Navbar from '../NavBar/Navbar'
-//import noResults from '../../no-results.svg'
+import noResults from '../../assets/no-results.svg'
 //import '../Tagwise/Tag.css'
 import loadingAnimation from '../../assets/kOnzy.gif'
 

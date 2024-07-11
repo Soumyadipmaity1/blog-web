@@ -12,10 +12,11 @@ export const postBlog = async(body) => {
 
 export const getAllBlogs = async() => {
     try {
-        return await axios.get(`${url}/blogs`)
+        const response = await axios.get(`${url}/blogs`);
+        return response.data;
     }
     catch(error) {
-        console.log('error in get all blogs api',error)
+        console.log('error in get all blogs api',error);
     }
 }
 

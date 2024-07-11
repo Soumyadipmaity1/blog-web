@@ -17,6 +17,7 @@ import Pending from './components/AdditionalPages/Pending';
 import Bookmark from './components/Bookmark/Bookmark';
 import Write from './components/Write/Write';
 import Share from './components/AdditionalPages/Share';
+import { useRef } from 'react'
 
 function App() {
   return (

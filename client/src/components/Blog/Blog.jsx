@@ -11,10 +11,10 @@ import  {bookmark,unBookmark,likeBlog,unlikeBlog,getBlogById,getAllBlogs} from '
 import {getUserById,loginUser} from '../../apis/Users'
 import {LoginContext} from '../../contextProvider/context'
 //import {useContext} from 'react'
-//import user, {RightSection} from "../Homepage/Home.jsx"
+import user, {RightSection} from "../Homepage/Home.jsx"
 import Navbar from '../NavBar/Navbar'
 import axios from 'axios'
-//import Share from '../AdditionalPages/Share';
+import Share from '../AdditionalPages/Share';
 import loadingAnimation from '../../assets/kOnzy.gif'
 
 function PopularAuthors(props) {
