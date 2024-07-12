@@ -9,7 +9,7 @@ import { AiOutlineHome } from 'react-icons/ai'
 import {GoHome} from 'react-icons/go'
 import {RiNotification4Line} from 'react-icons/ri'
 import {useNavigate,useNavigation} from 'react-router-dom'
-import axios from 'axios'
+// import axios from 'axios'
 
 export const SideBarData = [
     {
