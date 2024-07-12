@@ -8,10 +8,10 @@ import user, {RightSection} from "../Homepage/Home.jsx"
 import axios from 'axios'
 import Share from '../AdditionalPages/Share';
 import loadingAnimation from '../../assets/kOnzy.gif'
-import { MdOutlineBook, MdOutlineBookmark, MdAdd } from 'react-icons/md'; // Import MdOutlineBook, MdOutlineBookmark, and MdAdd icons together
-import { BsLink45Deg } from 'react-icons/bs'; // Import BsLink45Deg icon
-import { AiOutlineLike, AiFillLike, AiOutlineShareAlt } from 'react-icons/ai'; // Import AiOutlineLike, AiFillLike, and AiOutlineShareAlt icons
-import { VscComment } from 'react-icons/vsc'; // Import VscComment icon
+import { MdOutlineBook, MdOutlineBookmark, MdAdd } from 'react-icons/md'; 
+import { BsLink45Deg } from 'react-icons/bs'; 
+import { AiOutlineLike, AiFillLike, AiOutlineShareAlt } from 'react-icons/ai'; 
+import { VscComment } from 'react-icons/vsc'; 
 
 import Navbar from '../NavBar/Navbar'
 import { Link, useLocation, useParams } from 'react-router-dom';
