@@ -1,10 +1,9 @@
-import React,{useEffect, useState} from 'react'
-//import './Login.css'
-import {Link, useNavigate} from 'react-router-dom'
-import {loginUser} from '../../apis/Users'
-import Stack from '@mui/material/Stack'
+import React, { useEffect, useState } from 'react';
+import { Link, useNavigate } from 'react-router-dom';
+import { loginUser } from '../../apis/Users';
+// import axios from 'axios';
+import Stack from '@mui/material/Stack';
 import LinearProgress from '@mui/material/LinearProgress';
-import axios, {Axios} from 'axios'
 
 const defaultData = {
     email: "",
